@@ -1,0 +1,226 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    /* min-height: 100vh; */
+    position: relative;
+    padding-bottom: 100px;
+}
+
+
+
+.header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgb(154, 255, 251);
+    opacity: 0.57;
+
+}
+
+
+.header .input-container {
+    margin: auto;
+    position: relative;
+}
+
+
+.header .input-container .search-icon {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+
+.header input {
+    width: 60vw;
+    height: 25px;
+    padding-left: 50px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 20px;
+    border: thin solid black;
+    position: relative;
+    margin: auto;
+}
+
+.header input:focus {
+    outline: 1px solid #51c9ff;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/微信图片_20240620174507.jpg");
+}
+
+/* 地图区 */
+.map-container {
+    width: 100%;
+    height: 300px;
+    margin-top: -0px;
+    margin: auto;
+}
+
+.map-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 内容区 */
+.content-container {
+    padding-top: 10px;
+}
+
+.swiper-container {
+    width: 95vw;
+    height: 250px;
+    margin: auto;
+    background-color: yellow;
+    border-radius: 5px;
+    position: relative;
+}
+
+.swiper-container video {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: fill;
+}
+
+
+
+/* 内容区 */
+
+.like-container {
+    width: 95vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.like-container .info-header {
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+
+
+.info-header .info-content {
+    width: 95%;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 4px;
+}
+
+.info-header .status-label {
+    width: fit-content;
+    border-radius: 10px;
+    background: #c6d8e2;
+    min-width: 40px;
+    margin-top:10px;
+    text-align: center;
+
+}
+
+/* 内容版本 */
+.like-container .content {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.like-container .left-content{
+    width: 45%;
+    height: 100%;
+}
+.like-container .left-content img{
+    width: 100%;
+    height: 100%;
+}
+.like-container .right-content{
+    width: 50%;
+}
+
+.like-container .right-content .item{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: thin solid #e6e6e6;
+}
+
+
+
+/* 底部导航 */
+.footer {
+    width: 100vw;
+    height: 80px;
+    background: #fff;
+    position: fixed;
+    bottom: -1px;
+    border-radius: 46px 46px 0px 0px;
+    background: rgb(195, 242, 204);
+}
+
+.menu-container {
+    height: 100%;
+}
+
+.menu-container ul {
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    padding-top: 17px;
+}
+
+.menu-container ul li {
+    height: 100%;
+    float: left;
+    color: black;
+    width: 33%;
+    text-align: center;
+    /* line-height: 80px; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu-container .icon img {
+    width: 30px;
+    height: 30px;
+    ;
+}
+
+.menu-container .icon .title {
+    color: black;
+    height: 40px;
+}
+
+.menu-container .icon p {
+    color: #fff;
+    margin: 0;
+}
+
